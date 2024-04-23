@@ -6,16 +6,16 @@
     <div>  
             <h2>Significado...</h2>
 </div>
-<hr>
+
      <div>
-      <h6>
+      
                 <p>XuNnito es un apodo cariñoso utilizado en el idioma tsotsil, hablado por la comunidad indígena en México. </p>
                 <p>Este término es una forma de expresar afecto y cercanía hacia una persona.
                 La palabra "XuN" puede interpretarse como el nombre "Juan", mientras que el sufijo "-nito" añade un matiz de ternura. Por lo tanto, "XuNnito" puede traducirse cariñosamente como "pequeño Juan" o "Juanito".
 
                 <p>Este apodo suele utilizarse para referirse a alguien de manera afectuosa, transmitiendo un sentido de familiaridad y cariño. Es común entre amigos, familiares o personas cercanas que desean expresar su aprecio y amor hacia la persona a la que se dirigen.
                 
-                En resumen, "XuNnito" es un término cargado de afecto y cercanía en el idioma tsotsil, utilizado para expresar cariño hacia una persona querida.</h6>
+                En resumen, "XuNnito" es un término cargado de afecto y cercanía en el idioma tsotsil, utilizado para expresar cariño hacia una persona querida.
             </div>
  <hr>
  <div class="rounded-border1">
