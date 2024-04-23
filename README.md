@@ -1,9 +1,9 @@
- PREGUNTA ES PERO QUE SIGNIFICA XUNNITO?
+ <h1>¿La PREGUNTA ES PERO QUE SIGNIFICA XUNNITO? </h1>
         </div>
     <div>
     <hr>
     </div>
-        <div class="rounded-border">
+       
             <h2>Significado...</h2>
 
             <h6>
