@@ -1,11 +1,11 @@
- <h1>¿La PREGUNTA ES PERO QUE SIGNIFICA XUNNITO? </h1>
+ <h3>¿La PREGUNTA ES PERO QUE SIGNIFICA XUNNITO? </h3>
         </div>
     <div>
     <hr>
     </div>
        
             <h2>Significado...</h2>
-
+<hr>
             <h6>
                 <p>XuNnito es un apodo cariñoso utilizado en el idioma tsotsil, hablado por la comunidad indígena en México. </p>
                 <p>Este término es una forma de expresar afecto y cercanía hacia una persona.
