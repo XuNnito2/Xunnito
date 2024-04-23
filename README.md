@@ -1,41 +1,4 @@
-
-    <title>XuNnito</title>
-    <link rel="icon" type="image/png" href="image.png">
-</head>
-
-<style>
-    .rounded-border {
-        border-radius: 10px; 
-        background-color: #b7e9c6;
-        border: px solid black; 
-        padding: 10px; 
-    }
-    .rounded-border1 {
-        border-radius: 30px; 
-        background-color: #8ae7a6;
-        border: 4px solid black; 
-        padding: 10px; 
-    }
-
-        .rounded-border2 {
-        border-radius: 30px; 
-        background-color: #0dff05;
-        border: 4px solid rgb(199, 146, 146); 
-        padding: 10px; 
-    }
-    
-    
-    @media only screen and (max-width: 600px) {
-        .rounded-border, .rounded-border1 {
-            border-radius: 5px;
-            padding: 5px;
-        }
-    }
-</style>
-</head>
-<body>
-    <div class="rounded-border1">
-        <h2>¿LA PREGUNTA ES PERO QUE SIGNIFICA XUNNITO?</h2>
+ PREGUNTA ES PERO QUE SIGNIFICA XUNNITO?
         </div>
     <div>
     <hr>
