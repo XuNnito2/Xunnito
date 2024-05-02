@@ -1,4 +1,4 @@
-("#showmenu").click(function(e) {
+$("#showmenu").click(function(e) {
     $("#menu").toggleClass("show");
     if ($("#menu").hasClass("show")) {
         setTimeout(function() {
