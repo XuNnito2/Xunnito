@@ -3,7 +3,7 @@ $("#showmenu").click(function(e) {
     if ($("#menu").hasClass("show")) {
         setTimeout(function() {
             $("#menu").removeClass("show");
-        }, 3000);
+        }, 100000);
     }
 });
 
