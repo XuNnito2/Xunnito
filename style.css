@@ -19,7 +19,7 @@ i {
 .navbar-logo {
   padding: 15px;
   color: #850909;
-  font-size: 30px; 
+  text-align: center;
   
   
 }
@@ -27,13 +27,11 @@ i {
 .navbar-mainbg {
     background: linear-gradient(to bottom, #49a063 10%, #4e8668 50%);
     padding: 0px;
-    font-size: 30px; 
 }
 
 #navbarSupportedContent {
   overflow: hidden;
   position: relative;
-  font-size: 30px; 
 }
 
 #navbarSupportedContent ul {
@@ -43,7 +41,7 @@ i {
 }
 
 #navbarSupportedContent ul li a i {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 #navbarSupportedContent li {
@@ -54,7 +52,7 @@ i {
 #navbarSupportedContent ul li a {
   color: #8b0707fd;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   padding: 20px 20px;
   transition-duration: 0.6s;
@@ -82,8 +80,17 @@ i {
 }
 
 #navbarSupportedContent .active > a:not(:only-child):after {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
+
+.navbar-brand.navbar-logo h2 {
+  color: #850909; 
+}
+
+.navbar-brand.navbar-logo:hover h2 {
+  color: #FF5733; 
+}
+
 
 .hori-selector {
   display: inline-block;
@@ -408,4 +415,7 @@ footer {
   object-fit: cover;
   border-radius: 25px;
   flex: 0 0 auto;
+}
+main {
+  margin-top: 100px; 
 }
