@@ -427,9 +427,9 @@ main {
     box-sizing: border-box;
 }
 
-.anuncio {
+anuncio {
     position:sticky;
-    top: 10%;
+    top: 30%;
     left: 10%;
     width: 80%;
     height: 80%;
@@ -438,13 +438,13 @@ main {
     justify-content: center;
     align-items: center;
     z-index: 600;
-    padding: 20px;
+    padding: 100px;
     box-sizing: border-box;
 }
 
 .anuncio-img {
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
     cursor: pointer;
 }
