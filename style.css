@@ -414,22 +414,22 @@ main {
 .anuncio {
 
     position: fixed;
-    top: 100px;
-    left: 100px;
-    width: 80%;
-    height: 80%;
+    top: 200px;
+    left: 200px;
+    width: 50%;
+    height: 50%;
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100PX;
+    z-index: 600px;
     padding: 50px;
     box-sizing: border-box;
 }
 
 .anuncio-img {
     width: 80%;
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     cursor: pointer;
 }
@@ -446,7 +446,7 @@ main {
 @media (min-width: 768px) {
     .anuncio-img {
         width: 100%;
-        max-width: 700px;
+        max-width: 400px;
     }
 }
 
