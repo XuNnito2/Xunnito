@@ -79,6 +79,10 @@ $("#menu a").click(function(event) {
   }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Aquí agregar funcion
+    console.log('JavaScript cargado correctamente');
+});
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('anuncio').style.display = 'flex';
 });
@@ -86,7 +90,6 @@ document.addEventListener('DOMContentLoaded', function () {
 function cerrarAnuncio() {
     document.getElementById('anuncio').style.display = 'none';
 }
-
 
 
 // ==========================================
