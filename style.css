@@ -427,8 +427,9 @@ main {
     box-sizing: border-box;
 }
 
+/* Estilos generales para el anuncio */
 .anuncio {
-    position:sticky;
+    position: sticky;
     top: 30%;
     left: 10%;
     width: 80%;
@@ -438,7 +439,7 @@ main {
     justify-content: center;
     align-items: center;
     z-index: 600;
-    padding: 100px;
+    padding: 50px; /* Ajuste de padding */
     box-sizing: border-box;
 }
 
@@ -456,4 +457,49 @@ main {
     font-size: 20px;
     color: white;
     cursor: pointer;
+}
+
+/* Estilos para pantallas de escritorio */
+@media (min-width: 1024px) {
+    .anuncio {
+        top: 30%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        padding: 100px; /* Mayor padding en pantallas grandes */
+    }
+
+    .close-btn {
+        font-size: 24px;
+    }
+}
+
+/* Estilos para pantallas tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .anuncio {
+        top: 20%;
+        left: 5%;
+        width: 90%;
+        height: 70%;
+        padding: 70px; /* Ajuste de padding */
+    }
+
+    .close-btn {
+        font-size: 22px;
+    }
+}
+
+/* Estilos para pantallas móviles */
+@media (max-width: 767px) {
+    .anuncio {
+        top: 10%;
+        left: 5%;
+        width: 90%;
+        height: 60%;
+        padding: 20px; /* Menor padding en pantallas pequeñas */
+    }
+
+    .close-btn {
+        font-size: 18px;
+    }
 }
