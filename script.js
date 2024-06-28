@@ -79,6 +79,14 @@ $("#menu a").click(function(event) {
   }
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('anuncio').style.display = 'flex';
+});
+
+function cerrarAnuncio() {
+    document.getElementById('anuncio').style.display = 'none';
+}
+
 
 
 // ==========================================
