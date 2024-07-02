@@ -450,7 +450,6 @@ main {
 }
 
 @media (min-width: 1024px) {
-    @media (min-width: 1024px) {
     .anuncio {
         padding: 40px;
         text-align: center;
@@ -462,15 +461,12 @@ main {
         max-width: 60px;
         display: block;
         margin: 0 auto;
-	
     }
 
     .close-btn {
         font-size: 18px;
     }
 }
-
-
 
 @media (max-width: 767px) {
     .anuncio {
