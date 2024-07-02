@@ -451,11 +451,11 @@ main {
 
 @media (min-width: 1024px) {
     .anuncio {
-        padding: 100px;
+        padding: 80px;
     }
 
     .close-btn {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
