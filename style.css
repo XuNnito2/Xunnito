@@ -450,16 +450,23 @@ main {
 }
 
 @media (min-width: 1024px) {
+    @media (min-width: 1024px) {
     .anuncio {
-        padding: 5px; 
+        padding: 50px;
+        text-align: center;
     }
 
     .anuncio-img {
-        max-width: 60%; 
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
 
     .close-btn {
-        font-size: 12px; 
+        font-size: 18px;
+    }
 }
+
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .anuncio {
