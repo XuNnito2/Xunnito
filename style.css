@@ -412,22 +412,6 @@ main {
 
 }
 .anuncio {
-
-    position: fixed;
-    top: 200px;
-    left: 200px;
-    width: 50%;
-    height: 50%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 600px;
-    padding: 50px;
-    box-sizing: border-box;
-}
-																																						
-.anuncio {
     position: fixed;
     top: 0;
     left: 0;
@@ -451,11 +435,13 @@ main {
 
 .close-btn {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px; 
+    right: 30px; 
     font-size: 20px;
     color: white;
     cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
 }
 
 @media (min-width: 1024px) {
