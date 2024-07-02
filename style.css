@@ -451,16 +451,14 @@ main {
 
 @media (min-width: 1024px) {
     .anuncio {
-        padding: 50px; 
+        padding: 5px; 
     }
 
     .anuncio-img {
-        max-width: 50%; 
-    }
+        max-width: 60%; 
 
     .close-btn {
-        font-size: 18px; 
-    }
+        font-size: 12px; 
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
