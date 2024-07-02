@@ -454,10 +454,12 @@ main {
     .anuncio {
         padding: 40px;
         text-align: center;
+        width: 60%;
+        height: 60%;
     }
 
     .anuncio-img {
-        max-width: 40px;
+        max-width: 60px;
         display: block;
         margin: 0 auto;
 	
