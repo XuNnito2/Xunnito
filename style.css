@@ -457,13 +457,10 @@ main {
     }
 
     .anuncio-img {
-        max-width: 40%;
+        max-width: 40px;
         display: block;
         margin: 0 auto;
-	width: auto;
-        max-width: 60%;
-        height: auto;
-        cursor: pointer;
+	
     }
 
     .close-btn {
