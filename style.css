@@ -468,12 +468,3 @@ main {
     }
 }
 
-@media (max-width: 767px) {
-    .anuncio {
-        padding: 20px;
-    }
-
-    .close-btn {
-        font-size: 18px;
-    }
-}
