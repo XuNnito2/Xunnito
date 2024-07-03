@@ -469,7 +469,7 @@ main {
 
 .close-btn {
   position: absolute;
-  top: 150px; 
+  top: 120px; 
   right:10%; 
   font-size: 20px;
   color: white;
@@ -489,7 +489,7 @@ main {
   
   .close-btn {
     position: absolute;
-    top: 150px; 
+    top: 120px; 
     right:10%; 
     font-size: 20px;
     color: white;
