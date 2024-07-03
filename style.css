@@ -411,90 +411,90 @@ main {
   margin-top: 80px; 
 
 }
+
 .anuncio {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 600;
-    padding: 50px;
-    box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 600;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .anuncio a {
-    position: relative;
+  position: relative;
 }
 
 .anuncio-img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    cursor: pointer;
+  cursor: pointer;
+  max-width: 300px;
+  max-height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .close-btn {
+  position: absolute;
+  top: 150px; 
+  right:10%; 
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* Estilos para vista móvil */
+@media (max-width: 767px) {
+  .anuncio-img {
+    cursor: pointer;
+    max-width: 300px;
+    max-height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .close-btn {
     position: absolute;
-    top: 100px; /* Ajusta esta posición según sea necesario */
-    right: 10px; /* Ajusta esta posición según sea necesario */
+    top: 150px; 
+    right:10%; 
     font-size: 20px;
     color: white;
     cursor: pointer;
     font-weight: bold;
-    font-size: larger;
-    z-index: 500; 
+  }
 }
 
-@media (min-width: 1024px) {
-    .anuncio {
-        padding: 40px;
-        text-align: center;
-        width: 60%;
-        height: 60%;
-    }
+/* Estilos para vista de escritorio */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .anuncio {
+    padding: 100px;
+    text-align: center;
+  }
 
-    .anuncio-img {
-        max-width: 60px;
-        display: block;
-        margin: 0 auto;
-    }
+  .anuncio-img {
+    width: 80%;
+    height: 80%;
+  }
 
-    .close-btn {
-        font-size: 18px;
-    }
-
-@media (min-width: 1024px) {
-    .anuncio {
-        padding: 100px;
-    }
-
-    .close-btn {
-        font-size: 24px;
-    }
+  .close-btn {
+    font-size: 24px;
+  }
 }
+/* Estilos para tabletas */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .anuncio {
+    padding: 40px;
+  }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-    .anuncio {
-        padding: 70px;
-    }
-
-    .close-btn {
-        font-size: 22px;
-    }
+  .close-btn {
+    top: 140px;
+    right: 12%;
+  }
 }
-
-@media (max-width: 767px) {
-    .anuncio {
-        padding: 20px;
-    }
-
-    .close-btn {
-        font-size: 18px;
-    }
-}
-
-
