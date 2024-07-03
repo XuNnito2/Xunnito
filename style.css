@@ -425,6 +425,33 @@ main {
   z-index: 600;
   padding: 50px;
   box-sizing: border-box;
+  animation: expand 1s ease-in-out;
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.anuncio.hide {
+  animation: hide 10s linear forwards;
 }
 
 .anuncio a {
