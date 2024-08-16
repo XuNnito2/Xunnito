@@ -1,32 +1,65 @@
- <h3>¿La PREGUNTA ES PERO QUE SIGNIFICA XUNNITO? </h3>
-        </div>
-    <div>
-    <hr>
-    </div>
-    <div>  
-            <h2>Significado...</h2>
-</div>
+# Qué Significa XuNnito .:: Significado
+ significado de **XuNnito**. Este nombre propio proviene de la lengua **tsotsil**, una de las lenguas indígenas del grupo maya hablada en el estado de Chiapas, México.
 
-<div>
-<p>XuNnito es un apodo cariñoso utilizado en el idioma tsotsil, hablado por la comunidad indígena en México. </p>
-                <p>Este término es una forma de expresar afecto y cercanía hacia una persona.
-                La palabra "XuN" puede interpretarse como el nombre "Juan", mientras que el sufijo "-nito" añade un matiz de ternura. Por lo tanto, "XuNnito" puede traducirse cariñosamente como "pequeño Juan" o "Juanito".</p>
-<p>Este apodo suele utilizarse para referirse a alguien de manera afectuosa, transmitiendo un sentido de familiaridad y cariño. Es común entre amigos, familiares o personas cercanas que desean expresar su aprecio y amor hacia la persona a la que se dirigen.</p>
- <p> En resumen, "XuNnito" es un término cargado de afecto y cercanía en el idioma tsotsil, utilizado para expresar cariño hacia una persona querida.</p>
-            </div>
- <hr>
- <div class="rounded-border1">
-<h3 align="center">Hola 👋, Soy XuNnito</h3>
-<h3 align="center">Amante De Memes</h3>
 
-<h3 align="center">Conéctate conmigo:</h3>
-<p align="center">
-    <a href="https://codepen.io/XuNnitou-Hrdz-XunN" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="XuNnito" height="30" width="40" /></a>
-    <a href="https://instagram.com/xunnitou?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ellygmr" height="30" width="40" /></a>
-    <a href="https://www.facebook.com/xunnitou" target="_blank"><img src="https://icones.pro/wp-content/uploads/2021/02/facebook-icone-f.png" alt="XuNnito" height="30" width="40"/></a>
-    <a href="https://tiktok.com/@xunnito" target="_blank"><img src="https://icones.pro/wp-content/uploads/2021/03/logo-icone-tiktok-simbolo.png" alt="XuNnito" height="30" width="40"/></a>
-    <a href="https://api.whatsapp.com/send?phone=529618137702" target="_blank"><img src="https://icones.pro/wp-content/uploads/2021/02/icone-du-logo-whatsapp-vert.png" alt="XuNnito" height="30" width="40"/></a>
-</p>
+### Origen y Significado
 
-</body>
-</html>
+El nombre **XuNnito** se compone de dos partes:
+- **Xun**: equivalente a *Juan* en español.
+- **nito**: un diminutivo que denota afecto o algo pequeño.
+
+En la cultura tsotsil, los nombres son una parte esencial de la identidad y suelen estar relacionados con elementos naturales, características personales, tradiciones, o eventos significativos.
+
+### Pronunciación
+
+La pronunciación de **XuNnito** en tsotsil es similar a "shun-ni-to", donde la "X" tiene un sonido suave.
+
+### Otros Nombres en Tsotsil
+
+**Masculinos:**
+- **Paxik**: Pacual
+- **Tín**: Carlos
+- **Lol**: Lorenzo
+- **Marcux**: Marcos
+- **jPetúl**: Pedro
+- **Marian**: Mariano
+- **Xalik**: Salvador
+- **Mikel**: Miguel
+- **Tex**: Pedro
+- **Manel**: Manuel
+- **Antún**: Antonio
+
+**Femeninos:**
+- **Paxkú**: Pascuala
+- **Antel**: Andrea
+- **Lupe**: Guadalupe
+- **Maruch**: María
+- **Loxa**: Rosa
+- **Vel**: Varónica
+- **Xunka'**: Juana
+- **Tumin**: Dominga/Domingo
+
+## Aprende palabras Tzotzil
+
+Si estás interesado en aprender más palabras en tsotsil, te recomendamos visitar el [Glosbe](https://es.glosbe.com/tzo/es) o descargar el [Diccionario Tzotzil](Diccionario_tzotzil.pdf).
+
+## Conéctate Conmigo
+
+¡Hola! Soy **XuNnito**, amante de los memes, la medicina y las tecnologías. Puedes conectarte conmigo en:
+
+- [Instagram](https://www.instagram.com/xunitou)
+- [Facebook](https://www.facebook.com/xunitou)
+- [WhatsApp](https://api.whatsapp.com/send?phone=529618137702)
+- [Messenger](https://m.me/xunitou)
+- [Telegram](https://t.me/xunitou)
+
+---
+
+
+## Enlaces Importantes
+
+- **[Inicio](https://xunito.tech)**
+- **[Significado de la Palabra XuNnito](https://www.google.com/search?q=que+significa+xunito&oq=que+significa+xunito&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEDSAQg5MDYwajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8)**
+- **[Palabras Tzotzil](#aprende-palabras-tzotzil)**
+- **[Contacto Con XuNnito](#conéctate-conmigo)**
+- **[Servicio que Ofrece](servicio_que_ofrece)**
