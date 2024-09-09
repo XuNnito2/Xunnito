@@ -463,6 +463,7 @@ main {
   max-width: 300px;
   max-height: 80%;
   display: block;
+  border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
 }
