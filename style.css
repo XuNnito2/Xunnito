@@ -44,7 +44,7 @@ header {
   }
 
   to {
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -59,6 +59,78 @@ header {
     border-color: black;
   }
 }
+@media (min-width: 767px) {
+  .xunn h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    margin-left: 40%;
+    border-right: 0.1em solid;
+    width: 0;
+    animation: typing 6s steps(30, end) 2s infinite, blink 0.75s step-end infinite;
+  }
+}
+
+.xunn1 {
+  margin-left: 2%;
+  border-radius: 10px;
+  background-color: #b7e9c9;
+  border: 2px solid black;
+  padding: 10px;
+  width: 96%;
+  margin-top: 10%;
+}
+
+.xunn1 h1 {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  position: relative;
+  margin-left: 40%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.1em solid;
+  width: 0;
+  animation: typing 10s steps(40, end) 2s infinite, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes blink {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: black;
+  }
+}
+@media (min-width: 767px) {
+  .xunn1 h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.1em solid;
+    width: 0;
+    animation: typing 6s steps(30, end) 2s infinite, blink 0.75s step-end infinite;
+  }
+}
+
 
 
 .xun {
