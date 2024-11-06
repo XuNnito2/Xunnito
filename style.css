@@ -136,7 +136,7 @@ header {
 .xun {
   margin-left: 2%;
   border-radius: 10px;
-  background-color: #72887a;
+  background-color: #78eea3;
   border: 2px solid black;
   padding: 10px;
   width: 96%;
@@ -145,20 +145,37 @@ header {
 .xun2 {
   margin-left: 2%;
   border-radius: 10px;
-  background-color: #b7e9c9;
-  border: 2px solid black;
   padding: 10px;
   width: 96%;
+
 }
 
-.xun2 img {
+
+.xun2 h1 {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color: black;
+}
+.xun2 h1:hover {
+  color: #da0a0a;
+  height: 20px;
+  background-color: aqua;
+  border-radius: 40px;
+} 
+.xun3 {
+  margin-left: 2%;
+  border-radius: 10px;
+  padding: 10px;
+  width: 96%;
+  background: linear-gradient(to bottom, #2ba750 20%, #4cdf93 50%);
+}
+.xun3 img {
   width: 50px;
   height: 50px;
   object-fit: cover;
   border-radius: 30%;
   flex: 0 0 auto;
 }
-
 .xun4 {
   margin-left: 2%;
   border-radius: 10px;
@@ -214,8 +231,10 @@ i {
 }
 
 .navbar-mainbg {
-  background: linear-gradient(to bottom, #49a063 10%, #4e8668 50%);
+  background: linear-gradient(to bottom, #256b3a 10%, #199754 50%);
   padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 #navbarSupportedContent {
