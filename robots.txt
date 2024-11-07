@@ -4,3 +4,5 @@ Disallow: /private/
 Disallow: /temp/
 
 Sitemap: https://xunito.tech/sitemap.xml
+Sitemap: https://xunito.tech/sitemap.xml
+Allow: /favicon.ico
