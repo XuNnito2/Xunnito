@@ -227,7 +227,7 @@ i {
 
 .navbar-logo {
   padding: 0px;
-  color: #d14e4e;
+  color: #8b0707fd;
 
 
 }
@@ -510,6 +510,7 @@ main {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   justify-content: center;
   align-items: center;
