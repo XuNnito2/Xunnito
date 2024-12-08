@@ -90,3 +90,6 @@ document.addEventListener('DOMContentLoaded', function () {
 function cerrarAnuncio() {
     document.getElementById('anuncio').style.display = 'none';
 }
+setTimeout(function() {
+  cerrarAnuncio();
+}, 6000);
