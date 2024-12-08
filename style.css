@@ -1,16 +1,20 @@
 /* Estilos generales */
 body {
   font-family: 'Verdana', sans-serif;
-  background: #f0f5f2;
-  padding: 0px;
-
+  background-color: #0F4C08;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23387805' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a6aa7c' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23348220' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2395a370' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%232f8c34' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23819c67' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23289647' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%236c965f' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%231fa059' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23548f59' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%230faa6b' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23368856' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  padding: 0;
 }
+
+
 
 header {
   background-color: #d68f8f;
   color: #201a1a;
   border-radius: 10px;
-  background-color: #8ae7a6;
+  background-color: #8ae7a675;
   border: 2px solid black;
   padding: 10px;
   text-align: center;
@@ -20,7 +24,7 @@ header {
 .xunn {
   margin-left: 2%;
   border-radius: 10px;
-  background-color: #b7e9c9;
+  background-color: #b7e9c959;
   border: 2px solid black;
   padding: 10px;
   width: 96%;
@@ -77,7 +81,7 @@ header {
 .xunn1 {
   margin-left: 2%;
   border-radius: 10px;
-  background-color: #b7e9c9;
+  background-color: #b7e9c96b;
   border: 2px solid black;
   padding: 10px;
   width: 96%;
@@ -136,7 +140,7 @@ header {
 .xun {
   margin-left: 2%;
   border-radius: 10px;
-  background-color: #78eea3;
+  background-color: #78eea35d;
   border: 2px solid black;
   padding: 10px;
   width: 96%;
@@ -167,7 +171,7 @@ header {
   border-radius: 10px;
   padding: 10px;
   width: 96%;
-  background: linear-gradient(to bottom, #2ba750 20%, #4cdf93 50%);
+  background: linear-gradient(to bottom, #2ba750e8 20%, #4cdf93ce 50%);
   animation: gradient 5s ease infinite;
 }
 .xun3 img {
@@ -180,7 +184,7 @@ header {
 .xun4 {
   margin-left: 2%;
   border-radius: 10px;
-  background: linear-gradient(to bottom, #49a063 10%, #7ea892 50%);
+  background: linear-gradient(to bottom, #49a06362 10%, #7ea89263 50%);
   border: 2px solid black;
   padding: 10px;
   width: 96%;
@@ -191,7 +195,7 @@ header {
   .xun4 {
     margin-left: 2%;
     border-radius: 10px;
-    background: linear-gradient(to bottom, #49a063 10%, #7ea892 50%);
+    background: linear-gradient(to bottom, #49a06380 10%, #7ea89263 50%);
     border: 2px solid black;
     padding: 10px;
     width: 96%;
@@ -225,7 +229,7 @@ i {
   margin-right: 20px;
 }
 
-/* Estilos de la barra de navegación */
+
 
 
 .navbar-logo {
@@ -262,6 +266,7 @@ i {
   position: relative;
 }
 
+
 #navbarSupportedContent ul {
   padding: 0px;
   margin: 0px;
@@ -292,6 +297,13 @@ i {
   background-color: transparent;
   transition: all 0.7s;
 }
+#navbarSupportedContent>ul>li:hover {
+  top: 0px;
+  left: 0px;
+  background-color: hsl(135, 64%, 68%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 
 #navbarSupportedContent a:not(:only-child):after {
   content: "\f105";
@@ -306,6 +318,8 @@ i {
   font-weight: 900;
   transition: 0.5s;
 }
+
+ 
 
 #navbarSupportedContent .active>a:not(:only-child):after {
   transform: rotate(180deg);
@@ -472,25 +486,38 @@ footer {
   display: flex;
   overflow-x: auto;
   width: 100%;
-  margin: 0;
+  padding: 0px;
+  margin: 10px;
 }
 
 .slider article {
   flex: 0 0 auto;
-  margin: 0 3px;
+  padding: 20px;
+  margin: 0 6px;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0px 4px 10px rgba(58, 16, 156, 0.2);
-  width: 300px;
-}
 
+  box-shadow: 0px 4px 10px rgba(58, 16, 156, 0.2);
+  width: 200px;
+}
+article:hover {
+  cursor: pointer;
+  background: rgb(31, 224, 192);
+}
 .slider img {
-  width: 70%;
+  width: 100%;
   margin-left: -5px;
+  margin-top: 10px;
   height: 200px;
   object-fit: cover;
   border-radius: 25px;
   flex: 0 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider img:hover {
+  transform: scale(1.1);
+
 }
 .slider img h1 {
   position : relative;
