@@ -1,14 +1,35 @@
 /* Estilos generales */
 body {
   font-family: 'Verdana', sans-serif;
-  background-color: #0F4C08;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23387805' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a6aa7c' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23348220' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2395a370' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%232f8c34' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23819c67' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23289647' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%236c965f' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%231fa059' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23548f59' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%230faa6b' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23368856' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
-  padding: 0;
+      background-color: #000; /* Color de respaldo */
+      background-image: url('https://4.bp.blogspot.com/-xR-DGneqwsA/Whms7C9c7iI/AAAAAAAHuvQ/py_2UmqmSek9A8mpoHXPHhdVWegXZreSwCLcBGAs/s1600/9798f70719c8bdd1ed1def090dd52a4c.gif'); /* URL del GIF */
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 0;
+      margin: 0;
 }
 
+.x img {
+  margin-top: 6.5%;
+  margin-left: 10px;
+  width: 93.5%;
+  -webkit-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none; 
+}
 
+@media (max-width: 767px) {
+  .x img {
+    margin-top: 17%;
+    margin-left: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+   
+  }
+}
 
 header {
   background-color: #d68f8f;
@@ -79,13 +100,16 @@ header {
 }
 
 .xunn1 {
+  position:relative;
   margin-left: 2%;
+  top:-30%;
+  margin-top: 30%;
   border-radius: 10px;
   background-color: #b7e9c96b;
   border: 2px solid black;
   padding: 10px;
   width: 96%;
-  margin-top: 10%;
+  margin-top: -15%;
 }
 
 .xunn1 h1 {
@@ -123,6 +147,8 @@ header {
   }
 }
 @media (min-width: 767px) {
+  
+  
   .xunn1 h1 {
     font-family: Arial, sans-serif;
     font-size: 2em;
@@ -137,10 +163,11 @@ header {
 
 
 
+
 .xun {
   margin-left: 2%;
   border-radius: 10px;
-  background-color: #78eea35d;
+  background-color: #fbfcfb00;
   border: 2px solid black;
   padding: 10px;
   width: 96%;
@@ -161,30 +188,43 @@ header {
   color: black;
 }
 .xun3 {
-  margin-left: 2%;
+  margin-top: 10px;
+  margin-left: 8px;
   border-radius: 10px;
   padding: 10px;
-  width: 96%;
-  background: linear-gradient(to bottom, #2ba7508a 20%, #4cdf93ce 50%);
+  width: 98.8%;
+  margin-top:0.8%;
+  background: linear-gradient(to bottom, #8eb0b1a6 20%, #7d8882ce 50%);
   animation: gradient 5s ease infinite;
 }
-.xun3 img {
+ .xun3 img {
   width: 50px;
   height: 50px;
   object-fit: cover;
   border-radius: 30%;
   flex: 0 0 auto;
 }
+
+@media (max-width: 767px) {
+  .xun3 {
+    margin-left: 8px;
+    width: 96%;
+  }
+}
+
 .xun4 {
   margin-left: 2%;
   border-radius: 10px;
-  background: linear-gradient(to bottom, #49a06362 10%, #7ea89263 50%);
+  background: linear-gradient(to bottom, #49a06346 10%, #7ea89263 50%);
   border: 2px solid black;
   padding: 10px;
   width: 96%;
   margin-top:7.3%;
   animation: gradient 5s ease infinite;
 }
+
+
+
 @media (max-width: 767px) {
   .xun4 {
     margin-left: 2%;
@@ -207,6 +247,7 @@ header {
   }
   
 }
+
 
 h1 {
   font-size: 25px;
@@ -234,7 +275,7 @@ i {
 }
 
 .navbar-mainbg {
-  background: linear-gradient(45deg, #256b3a 10%, #199754 50%);
+  background: linear-gradient(45deg, #798b9b 20%, #e1e7e4 50%);
   padding: 10px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -279,7 +320,7 @@ i {
 #navbarSupportedContent ul li a {
   color: #8b0707fd;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 12px;
   display: block;
   padding: 20px 20px;
   transition-duration: 0.6s;
@@ -288,13 +329,15 @@ i {
 }
 
 #navbarSupportedContent>ul>li.active>a {
-  background-color: transparent;
+  background-color: #6f7671;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   transition: all 0.7s;
 }
 #navbarSupportedContent>ul>li:hover {
-  top: 0px;
-  left: 0px;
-  background-color: hsl(135, 64%, 68%);
+  top: 0;
+  left: 0;
+  background-color: hsla(135, 18%, 62%, 0.568);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -328,7 +371,7 @@ i {
   left: 0px;
   transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  background-color: hsl(135, 64%, 68%);
+  background-color: hsla(137, 6%, 53%, 0.795);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin-top: 10px;
@@ -487,22 +530,22 @@ footer {
 .slider article {
   flex: 0 0 auto;
   padding: 20px;
-  margin: 0 6px;
+  margin: 0 px;
   text-align: center;
   border-radius: 15px;
-
   box-shadow: 0px 4px 10px rgba(58, 16, 156, 0.2);
   width: 300px;
 }
 article:hover {
   cursor: pointer;
-  background: rgb(4, 139, 60)
+  background: rgba(136, 141, 136, 0.596);
+  border:rgba(0, 0, 0, 0.7) solid 1px;
 }
 .slider img {
-  width: 100%;
+  width: 80%;
   margin-left: -5px;
   margin-top: 10px;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 25px;
   flex: 0 0 auto;
@@ -513,14 +556,11 @@ article:hover {
   transform: scale(1.1);
 }
 
-.slider article:hover::after {
+.slider article img:hover::after {
   content: "hacer click para Mas información";
   position: relative;
-  top: -200px;
-  left: 0px;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  padding: 5px 10px;
   border-radius: 5px;
   font-size: 14px;
   z-index: 1;
@@ -531,6 +571,10 @@ article:hover {
   margin-top: 30px;
   margin-left: 0px;
   font-size: 15px;
+  color: black;
+}
+.slider article:hover::after p {
+  text-decoration: none;
   color: black;
 }
 
